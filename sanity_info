@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /media/work/10_Projects/Yocto/poky-rocko_bbb/build/tmp
+SSTATE_DIR /media/work/40_Data/dump/sstate-cache
+NATIVELSBSTRING ubuntu-16.04

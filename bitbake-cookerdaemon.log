@@ -1,0 +1,100 @@
+--- Starting bitbake server pid 23777 at 2018-01-20 02:00:30.326326 ---
+Started bitbake server pid 23777
+DEBUG: Found bblayers.conf (/media/work/AUTOSAR/yocto/poky-rocko_bbb/build/conf/bblayers.conf)
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-poky
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-yocto-bsp
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-ptas
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/autosar_addon/meta-autosar-org_yocto-layers/meta-ara
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/autosar_addon/meta-amsr-vector-app
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/autosar_addon/meta-autosar-org
+DEBUG: Adding layer /media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-openembedded/meta-oe
+Entering server connection loop
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:740: including conf/abi_version.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:741: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:742: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:743: including conf/local.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:744: including conf/multiconfig/default.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:745: including conf/machine/beaglebone.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-yocto-bsp/conf/machine/beaglebone.conf:15: including conf/machine/include/tune-cortexa8.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/tune-cortexa8.inc:3: including conf/machine/include/arm/arch-armv7a.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv7a.inc:8: including conf/machine/include/arm/arch-armv6.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv6.inc:8: including conf/machine/include/arm/arch-armv5-dsp.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv5-dsp.inc:4: including conf/machine/include/arm/arch-armv5.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv5.inc:8: including conf/machine/include/arm/arch-armv4.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv4.inc:15: including conf/machine/include/arm/arch-arm.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv4.inc:16: including conf/machine/include/arm/feature-arm-thumb.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv5.inc:9: including conf/machine/include/arm/feature-arm-vfp.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/machine/include/arm/arch-armv7a.inc:9: including conf/machine/include/arm/feature-arm-neon.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:746: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:747: including conf/distro/poky.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-poky/conf/distro/poky.conf:100: including conf/distro/include/poky-world-exclude.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-poky/conf/distro/poky.conf:101: including conf/distro/include/no-static-libs.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-poky/conf/distro/poky.conf:102: including conf/distro/include/yocto-uninative.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:748: including conf/distro/defaultsetup.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/world-broken.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/include/tcmode-default.inc:71: including conf/distro/include/as-needed.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:749: including conf/documentation.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:750: including conf/licenses.conf
+DEBUG: CONF /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/conf/bitbake.conf:751: including conf/sanity.conf
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/patch.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:4)
+Accepting [<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>]
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/terminal.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/staging.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/mirrors.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/utils.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:8)
+Connecting Client
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/utility-tasks.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/metadata_scm.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/logging.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/uninative.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package_ipk.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package_ipk.bbclass:1)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/packagedata.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/chrpath.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/insane.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/package.bbclass:45)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/linuxloader.bbclass (from /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/media/work/AUTOSAR/yocto/poky-rocko_bbb/build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/media/work/AUTOSAR/yocto/poky-rocko_bbb/build/cache/bb_codeparser.dat'
+DEBUG: Enabling uninative
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'extra_assume_provided': [], 'invalidate_stamp': None, 'abort': True, 'server_timeout': None, 'dump_signatures': [], 'debug_domains': [], 'dry_run': False, 'debug': 0, 'prefile': [], 'profile': False, 'postfile': [], 'verbose': False, 'force': False}, {'XDG_CONFIG_DIRS': '/etc/xdg/xdg-LXDE:/etc/xdg', 'MANDATORY_PATH': '/usr/share/gconf/LXDE.mandatory.path', 'GTK_MODULES': 'gail:atk-bridge', 'HOME': '/home/junske', 'SAL_USE_VCLPLUGIN': 'gtk', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BUILDDIR': '/media/work/AUTOSAR/yocto/poky-rocko_bbb/build', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/', 'DISPLAY': ':0', 'OLDPWD': '/media/work/AUTOSAR/yocto/poky-rocko_bbb', 'SSH_AGENT_PID': '1476', 'LC_ALL': 'en_US.UTF-8', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GTK2_MODULES': 'overlay-scrollbar', 'LANG': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'LC_MONETARY': 'de_DE.UTF-8', 'USER': 'junske', 'LC_NAME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'QT_PLATFORM_PLUGIN': 'lxqt', 'BBPATH': '/media/work/AUTOSAR/yocto/poky-rocko_bbb/build', 'DESKTOP_SESSION': 'LXDE', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'LC_TIME': 'de_DE.UTF-8', 'SHELL': '/bin/bash', 'DEFAULTS_PATH': '/usr/share/gconf/LXDE.default.path', 'XDG_SEAT': 'seat0', 'TERM': 'xterm', '_': '/media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/bitbake/bin/bitbake', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHLVL': '1', 'LC_ADDRESS': 'de_DE.UTF-8', 'GDM_LANG': 'en', 'LC_TELEPHONE': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-ZjRs1A4HXy,guid=fde832e2b5403f94d1bbe7dd5a61e8d4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/junske', 'PWD': '/media/work/AUTOSAR/yocto/poky-rocko_bbb/build/conf', 'LANGUAGE': 'en', 'XAUTHORITY': '/home/junske/.Xauthority', 'XDG_SESSION_DESKTOP': 'LXDE', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'XDG_CONFIG_HOME': '/home/junske/.config', 'GDMSESSION': 'LXDE', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'XDG_CURRENT_DESKTOP': 'LXDE', 'SSH_AUTH_SOCK': '/tmp/ssh-cMYXwDTj44mg/agent.1414', 'XDG_MENU_PREFIX': 'lxde-', '_LXSESSION_PID': '1414', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PATH': '/media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/scripts:/media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/bitbake/bin:/media/work/AUTOSAR/yocto/poky-rocko_bbb/scripts:/media/work/AUTOSAR/yocto/poky-rocko_bbb/bitbake/bin:/home/user/AdaptiveEvalbundle/Yocto/poky/scripts:/home/user/AdaptiveEvalbundle/Yocto/poky/bitbake/bin:/home/junske/bin:/home/junske/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_NUMERIC': 'de_DE.UTF-8', 'LOGNAME': 'junske', 'XDG_SESSION_ID': 'c2', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XDG_VTNR': '7'}, ['/media/work/AUTOSAR/yocto/poky-rocko_bbb/poky/bitbake/bin/bitbake', 'core-image-glados-debug']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['core-image-glados-debug'], 'build']
+fatal: Cannot change to '/media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-ptas/recipes-glados/glados/../../../glados-src/': No such file or directory
+fatal: Cannot change to '/media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-ptas/recipes-glados/glados/../../../glados-src/GladosService': No such file or directory
+fatal: Cannot change to '/media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-ptas/recipes-glados/glados/../../../glados-src/GladosClient2': No such file or directory
+fatal: Cannot change to '/media/work/AUTOSAR/yocto/poky-rocko_bbb/meta-ptas/recipes-glados/glados/../../../glados-src/GladosClient1': No such file or directory
+Running command ['stateShutdown']
+Running command ['stateForceShutdown']
+Connecting Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
